@@ -13,7 +13,7 @@
   <h2>lastMutation: {{ lastMutation }}</h2>
 
   <!-- <h2>Direct getter: {{ $store.getters.squareCount }}</h2> -->
-  <h2>Direct getter: {{ $store.getters.squareCount }}</h2>
+  <h2>Direct getter: {{ $store.getters["counter/squareCount"] }}</h2>
 </template>
 
 <script>
